@@ -6,6 +6,7 @@
 <meta charset="UTF-8">
 <title>SPACE KADOSH</title>
 
+
 <style>
 
 body{
@@ -13,22 +14,23 @@ body{
     background:#111;
     color:white;
     font-family:Arial, sans-serif;
-    text-align:center;
 }
 
 
-.container{
-    min-height:100vh;
+.hero{
+    height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items:center;
+    text-align:center;
 }
 
 
 h1{
     font-size:72px;
-    letter-spacing:6px;
+    letter-spacing:10px;
+    font-weight:400;
 }
 
 
@@ -36,7 +38,7 @@ nav{
     margin-top:80px;
     display:flex;
     flex-direction:column;
-    gap:30px;
+    gap:35px;
 }
 
 
@@ -50,23 +52,55 @@ a{
 
 section{
     min-height:100vh;
-    padding-top:100px;
+    padding:120px 10%;
+    text-align:center;
 }
 
 
 h2{
     font-size:50px;
+    letter-spacing:8px;
+    font-weight:400;
+}
+
+
+.description{
+    margin-top:50px;
+    font-size:18px;
+    line-height:2;
+    max-width:700px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+
+.project-card{
+    margin-top:120px;
+}
+
+
+.project-image{
+    width:80%;
+    height:500px;
+    background:#222;
+    margin:auto;
+    display:flex;
+    justify-content:center;
+    align-items:center;
     letter-spacing:5px;
 }
 
 
-p{
-    font-size:18px;
-    line-height:2;
+h3{
+    margin-top:40px;
+    font-size:32px;
+    letter-spacing:5px;
+    font-weight:400;
 }
 
 
 </style>
+
 
 </head>
 
@@ -74,7 +108,7 @@ p{
 <body>
 
 
-<div class="container">
+<div class="hero">
 
 <h1>SPACE KADOSH</h1>
 
@@ -82,8 +116,11 @@ p{
 <nav>
 
 <a href="#about">ABOUT</a>
-<a href="#projects">PROJECTS</a>
+
+<a href="#spatial">SPATIAL VISIONARY</a>
+
 <a href="#tutorials">TUTORIALS</a>
+
 <a href="#contact">CONTACT</a>
 
 </nav>
@@ -93,49 +130,109 @@ p{
 
 
 
+
 <section id="about">
 
 <h2>ABOUT</h2>
 
-<p>
-SPACE KADOSH is a creative studio exploring space,
-brand experience, and visual storytelling.
-</p>
+
+<div class="description">
+
+SPACE KADOSH is a creative studio exploring
+space, brand experience, and visual storytelling.
+
+<br><br>
+
+Creating imaginary worlds through spatial concepts,
+visual direction, and cinematic experiences.
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+<section id="spatial">
+
+
+<h2>SPATIAL VISIONARY</h2>
+
+
+<div class="description">
+
+Imagining spaces, identities, and experiences
+beyond physical boundaries.
+
+</div>
+
+
+
+<div class="project-card">
+
+
+<div class="project-image">
+
+PROJECT IMAGE
+
+</div>
+
+
+<h3>PROJECT TITLE</h3>
+
+
+</div>
+
+
+
 
 </section>
 
 
 
-<section id="projects">
-
-<h2>PROJECTS</h2>
-
-
-<h3>SPATIAL VISIONARY</h3>
-
-<p>
-A virtual hotel exploring emotions,
-memory, and human experiences through space.
-</p>
-
-
-</section>
 
 
 
 <section id="tutorials">
 
+
 <h2>TUTORIALS</h2>
 
+
+<div class="description">
+
+Creative process, visual development,
+and design experiments.
+
+</div>
+
+
 </section>
+
+
+
 
 
 
 <section id="contact">
 
+
 <h2>CONTACT</h2>
 
+
+<div class="description">
+
+For collaborations and inquiries.
+
+</div>
+
+
 </section>
+
+
 
 
 </body>
